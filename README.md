@@ -1,2 +1,2 @@
 # naaate-byte.github.io
-@naatesstuff on twitter
+ follow @naatesstuff on twitter
