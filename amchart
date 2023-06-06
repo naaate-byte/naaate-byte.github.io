@@ -219,3 +219,14 @@ chart.appear(1000, 100);
 
 <!-- HTML -->
 <div id="chartdiv"></div>
+
+ $(document).ready(function() {
+      new Dygraph(
+            document.getElementById("div_g"),
+            NoisyData, {
+              rollPeriod: 7,
+              errorBars: true
+            }
+          );
+    }
+);
